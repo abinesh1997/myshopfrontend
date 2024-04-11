@@ -1,0 +1,36 @@
+.user_dashboard{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.user_dashboard h3{
+    font-size: 30px;
+}
+
+.order_card{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px;
+    margin: 20px auto;
+}
+.order_head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+.order_card .product_summary {
+    width: 100%;
+}
+.order_card .product_summary h5{
+padding: 10px 0;
+}
+.order_card table{
+
+    width: 100% !important;
+}
+.order_card th,
+.order_card td{
+    border: 1px solid #000;
+    padding: 10px;
+}

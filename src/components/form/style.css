@@ -1,0 +1,7 @@
+.filter_form input {
+    width: 400px;
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}

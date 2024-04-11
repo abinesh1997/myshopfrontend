@@ -1,0 +1,123 @@
+.dash_board {
+    display: flex;
+}
+.dash_board .left{
+    width: 300px;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    
+
+}
+.dash_link{
+    padding: 20px 30px;
+}
+.dash_link .logo{
+    padding-bottom: 30px;
+}
+.dash_link .logo h3{
+    font-size: 30px;
+    padding: 20px 0;
+
+}
+.dash_link h3 span{
+    color: #f49f01;
+
+}
+.dash_link li{
+    list-style: none;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 8px 0;
+}.dash_link li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.dash_link li a.active{
+    background-color: red;
+}
+
+.dash_board .right{
+    width: calc(100% - 300px);
+    background-color: #302f2f;
+    height: 100vh;
+}
+
+.admin_header{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+.header_title{
+    font-size: 22px;
+}
+
+.aicon{
+    margin-bottom: -4px;
+    color: #fff;
+}
+.admin_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+.admin_container .card{
+    width: 25%;
+    background-color: #ccc;
+    text-align: center;
+    margin: 40px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.admin_container .card h3{
+    font-size: 25px;
+    padding: 10px;
+}
+.admin_container .card p{
+    font-size: 18px;
+}
+
+.header_auth{
+    cursor: pointer;
+}
+.admin_container table{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+table{
+    border-spacing: 0;
+}
+.admin_container td,
+.admin_container th{
+    border: 1px solid #fff;
+    padding:  10px;
+}
+.action_icon{
+    font-size: 19px;
+    cursor: pointer;
+}
+/* filter  */
+
+.filter_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 40px 0;
+}
+.filter_section button{
+    width: 120px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
